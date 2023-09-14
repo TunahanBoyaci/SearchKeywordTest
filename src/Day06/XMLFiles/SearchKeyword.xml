@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="SearchKeyword">
+
+        <parameter name="keyword" value="mac"></parameter>
+        <parameter name="username" value="ahmetyilmaz2@gmail.com"></parameter>
+        <parameter name="password" value="123456Tuna."></parameter>
+
+        <classes>
+            <class name="Day06.SearchKeyword">
+                <methods>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
